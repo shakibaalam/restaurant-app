@@ -32,7 +32,7 @@ const NavBar = () => {
         },
     ];
     return (
-        <div className=' px-20 text-accent'>
+        <div className=' px-20 text-accent sticky top-0'>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">

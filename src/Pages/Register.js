@@ -67,6 +67,7 @@ const Register = () => {
                 <Link to="/login" className=' hover:text-blue-500'>
                     Don't have an account? Create an account
                 </Link>
+                {error && <p className=' text-red-500 mt-4'>{error}</p>}
             </div>
         </div>
     );

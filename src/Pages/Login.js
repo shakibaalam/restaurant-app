@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+
 import { useForm } from 'react-hook-form';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
@@ -58,7 +58,7 @@ const Login = () => {
                     Don't have an account? Create an account
                 </Link>
 
-                {error && <p className=' text-red-500'>{error}</p>}
+                {error && <p className=' text-red-500 mt-4'>{error}</p>}
             </div>
         </div>
     );
